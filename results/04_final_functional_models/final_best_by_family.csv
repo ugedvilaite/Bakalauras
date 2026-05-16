@@ -1,3 +1,0 @@
-Family,Method,Representation,Tuning,PR-AUC mean ± std,ROC-AUC mean ± std,F1 mean ± std
-Distance-based functional,weighted kNN + seuclidean,L2-normalised sampled spectra,k=5,0.8083 ± 0.0354,0.8910 ± 0.0201,0.7738 ± 0.0274
-Functional linear,Functional logistic regression (L2),L2-normalised sampled spectra,inner-CV C | mean best C=0.01743,0.8650 ± 0.0280,0.9155 ± 0.0198,0.8098 ± 0.0278
