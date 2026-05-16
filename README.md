@@ -101,19 +101,23 @@ Pagrindiniai vertinimo rodikliai:
 
 Pagrindiniais modelių palyginimo rodikliais laikomi F1 ir PR-AUC.
 
+
 ## Programinė aplinka
 
 Analizė atlikta naudojant `Python` ir `Jupyter Notebook`.
 
-Pagrindinės naudotos bibliotekos:
+Pagrindinės naudotos išorinės bibliotekos:
 
-```text
-numpy
-pandas
-scikit-learn
-scipy
-matplotlib
-```
+| Biblioteka | Paskirtis |
+|---|---|
+| `numpy` | skaitiniai skaičiavimai ir matricų operacijos |
+| `pandas` | duomenų nuskaitymas, tvarkymas ir rezultatų lentelės |
+| `scikit-learn` | klasifikavimo modeliai, FPKA / FDMKA, kryžminė patikra ir metrikos |
+| `scipy` | statistiniai testai, įskaitant Wilcoxono ženklų rangų testą |
+| `matplotlib` | grafikų ir paveikslų generavimas |
+| `IPython` | tarpinių rezultatų atvaizdavimas notebook aplinkoje |
+
+Papildomai naudotos standartinės `Python` bibliotekos: `json`, `pathlib`, `warnings`, `datetime`, `typing` ir `dataclasses`.
 
 ## Paleidimas
 
